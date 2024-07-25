@@ -2,7 +2,7 @@ import Navbar from "./components/navbar";
 function App() {
   return (
     <>
-      <div className="fixed w-screen p-8">
+      <div className="fixed w-screen py-8 px-32">
         <Navbar />
       </div>
       <div className="bg-[#3376f4] h-screen flex flex-col justify-center items-center gap-6">
